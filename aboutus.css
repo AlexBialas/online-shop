@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav {
+  padding-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+#map {
+  width: 500px;
+  height: 300px;
+  border: 0;
+}
+.Street {
+  margin-top: 60px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.fa-paw {
+  font-size: 50px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.fa-user {
+  color: white;
+}
+.fa-user:hover {
+  color: black;
+}
+.fa-shopping-cart {
+  color: white;
+}
+.fa-shopping-cart:hover {
+  color: black;
+}
+
+.backto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: 250px;
+}
+
+.backto:hover {
+  background-color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-item {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.awards {
+  margin-top: 70px;
+}
