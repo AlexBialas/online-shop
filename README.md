@@ -24,5 +24,5 @@ Welcome to **PAW SHOP**, your one-stop online pet shop! Our website offers a wid
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/AlexBialas/online-shop.git
+  
+git@github.com:AlexBialas/online-shop.git
