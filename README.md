@@ -7,8 +7,7 @@ Welcome to **PAW SHOP**, your one-stop online pet shop! Our website offers a wid
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
+
 
 ## Description
 
